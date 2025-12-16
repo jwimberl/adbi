@@ -1,6 +1,6 @@
 Package: adbi
 Title: 'DBI' Compliant Database Access Using 'ADBC'
-Version: 0.1.2
+Version: 0.1.2.9000
 Authors@R: 
     c(person(given = "Nicolas",
              family = "Bennett",
@@ -42,6 +42,7 @@ Collate:
     'adbi-package.R'
     'AdbiDriver.R'
     'AdbiConnection.R'
+    'AdbiDbplyr.R'
     'AdbiResult.R'
     'AdbiResultArrow.R'
     'dbAppendTable_AdbiConnection_character_data.frame.R'
